@@ -45,7 +45,7 @@ export default function Home() {
         </div>
       ) : (
         <div className={`${darkMode ? 'text-yellow-600' : 'text-black'}`}>
-          "Loading..."
+          Loading...
         </div>
       )}
     </main>
